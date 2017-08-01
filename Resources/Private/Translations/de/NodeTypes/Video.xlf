@@ -1,42 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file original="" product-name="DIU.Html5VideoPlayer" source-language="de" datatype="plaintext">
+	<file original="" product-name="DIU.Html5VideoPlayer" source-language="en" target-language="de" datatype="plaintext">
 		<body>
 			<trans-unit id="ui.label" xml:space="preserve">
 				<source>DIU | HTML5 Video-Player</source>
+				<target xml:lang="de">DIU | HTML5 Video-Player</target>
 			</trans-unit>
 			<trans-unit id="tabs.custom" xml:space="preserve">
-				<source>Video-Einstellungen</source>
+				<source>Video-Settings</source>
+				<target xml:lang="de">Video-Einstellungen</target>
 			</trans-unit>
 			<trans-unit id="groups.assets" xml:space="preserve">
 				<source>Video</source>
+				<target xml:lang="de">Video</target>
 			</trans-unit>
 			<trans-unit id="properties.aspectratio" xml:space="preserve">
-				<source>Seitenverhältnis</source>
+				<source>Aspect ratio</source>
+				<target xml:lang="de">Seitenverhältnis</target>
 			</trans-unit>
 			<trans-unit id="properties.aspectratio.selectBoxEditor.values.16by9" xml:space="preserve">
 				<source>16:9</source>
+				<target xml:lang="de">16:9</target>
 			</trans-unit>
 			<trans-unit id="properties.aspectratio.selectBoxEditor.values.4by3" xml:space="preserve">
 				<source>4:3</source>
+				<target xml:lang="de">4:3</target>
 			</trans-unit>
 			<trans-unit id="properties.image" xml:space="preserve">
-				<source>Platzhalter Bild</source>
+				<source>Placeholder image</source>
+				<target xml:lang="de">Platzhalter Bild</target>
 			</trans-unit>
 			<trans-unit id="properties.mp4" xml:space="preserve">
-				<source>.mp4 - Datei</source>
+				<source>.mp4 - File</source>
+				<target xml:lang="de">.mp4 - Datei</target>
 			</trans-unit>
 			<trans-unit id="properties.webm" xml:space="preserve">
-				<source>.webm - Datei</source>
+				<source>.webm - File</source>
+				<target xml:lang="de">.webm - Datei</target>
 			</trans-unit>
 			<trans-unit id="properties.ogg" xml:space="preserve">
-				<source>.ogg - Datei</source>
+				<source>.ogg - File</source>
+				<target xml:lang="de">.ogg - Datei</target>
 			</trans-unit>
 			<trans-unit id="error.filetype" xml:space="preserve">
-				<source>Die hochgeladene Datei für die .mp4-Quelle ist nicht gültig.</source>
+				<source>The uploaded file for the .mp4-source is not valid.</source>
+				<target xml:lang="de">Die hochgeladene Datei für die .mp4-Quelle ist nicht gültig.</target>
 			</trans-unit>
 			<trans-unit id="error.missing" xml:space="preserve">
-				<source>Es wird ein .mp4-Video benötigt für das Video-Modul.</source>
+				<source>A .mp4-Video file is required for the Video-Module.</source>
+				<target xml:lang="de">Es wird ein .mp4-Video benötigt für das Video-Modul.</target>
 			</trans-unit>
 		</body>
 	</file>
