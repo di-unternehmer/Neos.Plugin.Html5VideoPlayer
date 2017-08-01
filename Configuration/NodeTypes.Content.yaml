@@ -1,0 +1,87 @@
+'DIU.Html5VideoPlayer:Video':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: i18n
+    icon: icon-play-circle
+    group: plugins
+    inspector:
+      tabs:
+        custom:
+          label: i18n
+          position: 10
+          icon: icon-film
+      groups:
+        assets:
+          tab: custom
+          label: i18n
+          position: 10
+          icon: icon-film
+  properties:
+    aspectratio:
+      type: string
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        defaultValue: 16by9
+        inspector:
+          group: assets
+          position: 10
+          editor: Neos.Neos/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            values:
+              16by9:
+                label: i18n
+              4by3:
+                label: i18n
+    image:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: i18n
+        inspector:
+          group: assets
+          position: 20
+          editorOptions:
+            features:
+              crop: true
+            crop:
+              aspectRatio:
+                options:
+                  widescreen:
+                    width: 16
+                    height: 9
+                    label: '16:9'
+                  square:
+                    width: 4
+                    height: 3
+                    label: '4:3'
+                  fourFive: null
+                  fiveSeven: null
+                  twoThree: null
+                  fourThree: null
+                  sixteenNine: null
+                allowCustom: false
+    mp4:
+      type: Neos\Media\Domain\Model\Asset
+      ui:
+        label: i18n
+        inspector:
+          group: assets
+          position: 30
+          editor: Neos.Neos/Inspector/Editors/AssetEditor
+    webm:
+      type: Neos\Media\Domain\Model\Asset
+      ui:
+        label: i18n
+        inspector:
+          group: assets
+          position: 40
+          editor: Neos.Neos/Inspector/Editors/AssetEditor
+    ogg:
+      type: Neos\Media\Domain\Model\Asset
+      ui:
+        label: i18n
+        inspector:
+          group: assets
+          position: 40
+          editor: Neos.Neos/Inspector/Editors/AssetEditor

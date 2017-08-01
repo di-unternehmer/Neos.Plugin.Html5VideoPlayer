@@ -1,0 +1,8 @@
+prototype(DIU.Html5VideoPlayer:Video) < prototype(Neos.Neos:Content) {
+    templatePath = 'resource://DIU.Html5VideoPlayer/Private/Templates/FusionObjects/html5videoplayer.html'
+    aspectratio  =   ${q(node).property('aspectratio')}
+    image        =   ${q(node).property('image')}
+    mp4          =   ${q(node).property('mp4')}
+    webm         =   ${q(node).property('webm')}
+    ogg          =   ${q(node).property('ogg')}
+}

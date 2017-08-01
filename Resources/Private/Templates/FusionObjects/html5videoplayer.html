@@ -1,0 +1,40 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+
+<f:if condition="{mp4}">
+    <f:then>
+        <f:if condition="{mp4.resource.mediatype} == 'video/mp4'">
+            <f:then>
+                <div{attributes -> f:format.raw()}>
+                    <div class="embed-responsive embed-responsive-{aspectratio}">
+                        <video class="embed-responsive-item" poster="{f:if(condition: image, then: '{media:uri.image(image: image)}')}" controls>
+                            <f:if condition="{mp4.resource.mediatype} == 'video/mp4'">
+                                <source src="{f:uri.resource(resource: mp4.resource)}" type="video/mp4" />
+                            </f:if>
+                            <f:if condition="{webm.resource.mediatype} == 'video/webm'">
+                                <source src="{f:uri.resource(resource: webm.resource)}" type="video/mp4" />
+                            </f:if>
+                            <f:if condition="{ogg.resource.mediatype} == 'video/ogg'">
+                                <source src="{f:uri.resource(resource: ogg.resource)}" type="video/ogg" />
+                            </f:if>
+                        </video>
+                    </div>
+                </div>
+            </f:then>
+            <f:else>
+                <f:if condition="{neos:rendering.inBackend()}">
+                    <div style="border: 1px solid red; padding: 20px;">
+                        <h3 style="color: red;"><f:translate id="error.filetype" package="DIU.Html5VideoPlayer" /></h3>
+                    </div>
+                </f:if>
+            </f:else>
+        </f:if>
+    </f:then>
+    <f:else>
+        <f:if condition="{neos:rendering.inBackend()}">
+            <div style="border: 1px solid red; padding: 20px;">
+                <h3 style="color: red;"><f:translate id="error.missing" source="NodeTypes/Video" package="DIU.Html5VideoPlayer" /></h3>
+            </div>
+        </f:if>
+    </f:else>
+</f:if>

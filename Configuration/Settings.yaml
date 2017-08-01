@@ -1,0 +1,10 @@
+Neos:
+  Neos:
+    userInterface:
+      translation:
+        autoInclude:
+          DIU.Html5VideoPlayer:
+            - 'NodeTypes/*'
+    fusion:
+      autoInclude:
+        DIU.Html5VideoPlayer: true

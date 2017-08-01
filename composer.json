@@ -1,0 +1,33 @@
+{
+  "name": "diu/html5videoplayer",
+  "type": "neos-plugin",
+  "description": "HTML5 Video Player integration",
+  "keywords": [
+    "flow",
+    "neos",
+    "html5",
+    "video"
+  ],
+  "license": "MIT",
+  "require": {
+    "neos/neos": "~3.0 || dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "DIU\\Html5VideoPlayer\\": "Classes"
+    }
+  },
+  "authors": [
+    {
+      "name": "Daniel Hansen",
+      "email": "daniel.hansen@di-unternehmer.com",
+      "homepage": "https://www.di-unternehmer.com",
+      "role": "Developer"
+    }
+  ],
+  "extra": {
+    "neos": {
+      "package-key": "DIU.Html5VideoPlayer"
+    }
+  }
+}

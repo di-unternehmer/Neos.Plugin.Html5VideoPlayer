@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="DIU.Html5VideoPlayer" source-language="de" datatype="plaintext">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve">
+				<source>DIU | HTML5 Video-Player</source>
+			</trans-unit>
+			<trans-unit id="tabs.custom" xml:space="preserve">
+				<source>Video-Einstellungen</source>
+			</trans-unit>
+			<trans-unit id="groups.assets" xml:space="preserve">
+				<source>Video</source>
+			</trans-unit>
+			<trans-unit id="properties.aspectratio" xml:space="preserve">
+				<source>Seitenverhältnis</source>
+			</trans-unit>
+			<trans-unit id="properties.aspectratio.selectBoxEditor.values.16by9" xml:space="preserve">
+				<source>16:9</source>
+			</trans-unit>
+			<trans-unit id="properties.aspectratio.selectBoxEditor.values.4by3" xml:space="preserve">
+				<source>4:3</source>
+			</trans-unit>
+			<trans-unit id="properties.image" xml:space="preserve">
+				<source>Platzhalter Bild</source>
+			</trans-unit>
+			<trans-unit id="properties.mp4" xml:space="preserve">
+				<source>.mp4 - Datei</source>
+			</trans-unit>
+			<trans-unit id="properties.webm" xml:space="preserve">
+				<source>.webm - Datei</source>
+			</trans-unit>
+			<trans-unit id="properties.ogg" xml:space="preserve">
+				<source>.ogg - Datei</source>
+			</trans-unit>
+			<trans-unit id="error.filetype" xml:space="preserve">
+				<source>Die hochgeladene Datei für die .mp4-Quelle ist nicht gültig.</source>
+			</trans-unit>
+			<trans-unit id="error.missing" xml:space="preserve">
+				<source>Es wird ein .mp4-Video benötigt für das Video-Modul.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
